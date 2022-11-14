@@ -5,8 +5,6 @@ import { useRouter } from 'next/router'
 
 export const Header = () => {
     const router = useRouter()
-
-    console.log(router)
     return (
         <header className="shadow-2xl my-10 mx-10 p-5 rounded-xl">
             <div className="grid justify-end items-center md:hidden lg:hidden">
@@ -18,7 +16,8 @@ export const Header = () => {
                         <li
                             key={name}
                             className={`text-stroke text-center hover:bg-secondary p-10 cursor-pointer rounded-md ${
-                                router.pathname === link && 'bg-secondary  shadow-md'
+                                router.pathname === link &&
+                                'bg-secondary  shadow-md'
                             }`}
                         >
                             <p
