@@ -1,7 +1,7 @@
+import { IChildren } from '@interface/children.interface'
 import React from 'react'
-import { Children } from '.'
 
-const PageLayout: React.FC<Children> = ({ children }) => {
+const PageLayout: React.FC<IChildren> = ({ children }) => {
     return <div className="mx-10">{children}</div>
 }
 
