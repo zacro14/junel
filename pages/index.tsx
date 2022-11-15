@@ -1,11 +1,17 @@
+/**
+ * copyright 2022  Junel Sacro
+ */
+
 import Image from 'next/image'
 import Programming from 'images/programming.svg'
 import { CheckBadgeIcon } from '@heroicons/react/24/outline'
+import Seo from 'components/seo'
 
 export default function Home() {
     return (
         <div className="container mx-auto">
-            <div className="grid grid-cols-2 items-center justify-center h-64">
+            <Seo />
+            <div className="grid grid-row-2 md:grid-cols-2 items-center justify-center h-64">
                 <div className="bg-main h-full p-5 text-center flex items-start justify-center flex-col border border-hidden">
                     <h1 className="font-bold text-2xl">
                         Hello 👋, I'm Junel Sacro
