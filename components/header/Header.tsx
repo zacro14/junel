@@ -8,7 +8,7 @@ import { image } from 'images/constants'
 export const Header = () => {
     const router = useRouter()
     return (
-        <header className="z-50 shadow-2xl my-10 mx-10 p-2 md:p-5 lg:p-5 rounded-xl">
+        <header className=" sticky top-10 z-50 shadow-2xl my-10 mx-10 p-2 md:p-5 lg:p-5 rounded-xl bg-main">
             <div className="grid grid-cols-2 items-center md:hidden lg:hidden">
                 <span>
                     <Link href={'/'} passHref>
