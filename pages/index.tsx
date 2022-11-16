@@ -6,13 +6,14 @@ import Image from 'next/image'
 import Programming from 'images/programming.svg'
 import { CheckBadgeIcon } from '@heroicons/react/24/outline'
 import Seo from 'components/seo'
+import Link from 'next/link'
 
 export default function Home() {
     return (
         <div className="container mx-auto">
-            <Seo />
-            <div className="grid grid-row-2 md:grid-cols-2 items-center justify-center h-64">
-                <div className="bg-main h-full p-5 text-center flex items-start justify-center flex-col border border-hidden">
+            <Seo title="Junel Sacro | About" />
+            <div className="grid grid-row-2 md:grid-cols-2 items-center justify-center">
+                <div className="bg-secondary h-full p-5 text-center flex items-start justify-center flex-col border border-hidden">
                     <h1 className="font-bold text-2xl">
                         Hello 👋, I'm Junel Sacro
                     </h1>
@@ -30,8 +31,11 @@ export default function Home() {
                             <span>Learner</span>
                         </div>
                     </div>
+                    <button className="bg-tertiary p-3 text-main rounded-lg mt-10">
+                        <Link href={'/contact'}>Contact Me</Link>
+                    </button>
                 </div>
-                <span className="full p-2 border-secondary border">
+                <span className="full p-2">
                     <Image className="h-full" src={Programming} alt={'Me'} />
                 </span>
             </div>
