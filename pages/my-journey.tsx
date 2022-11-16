@@ -6,7 +6,7 @@ import Seo from 'components/seo'
 const Journey = () => {
     return (
         <div className="p-5">
-            <Seo />
+            <Seo title="Junel Sacro | Journey" />
             <div className="mx-4 p-4">
                 <div className="grid grid-col gap-4">
                     <div className="flex items-center text-stroke relative">
