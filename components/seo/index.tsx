@@ -11,7 +11,7 @@ const Seo: React.FC<Metadata> = ({
 }) => {
     return (
         <Head>
-            <title>{title} 🤔</title>
+            <title>{`${title} 🤔`}</title>
             <meta name="description" content={description} />
             <meta charSet="utf-8" />
             <meta
