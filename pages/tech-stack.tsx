@@ -7,7 +7,7 @@ const TechStack = () => {
             <Seo title="TJunel Sacro | Tech-Stack" />
             <div className="grid gap-10">
                 <h1 className="font-bold">Technologies</h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                     <div className="bg-main h-52 w-full rounded-md flex items-center justify-center">
                         <h2 className="font-bold">Nextjs</h2>
                     </div>
@@ -37,7 +37,7 @@ const TechStack = () => {
                 </div>
                 <div>
                     <h1 className="font-bold">Development tools</h1>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-5 ">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mt-5 ">
                         <div className="bg-main h-52 w-full rounded-md flex items-center justify-center">
                             <h2 className="font-bold">Git</h2>
                         </div>
