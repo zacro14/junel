@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 export default function Home() {
     return (
-        <div className="container mx-auto">
+        <div>
             <Seo title="Junel Sacro | About" />
             <div className=" h-3/4 grid grid-row-2 md:grid-cols-2 items-center justify-center">
                 <div className="bg-secondary h-full p-5 text-center flex items-start justify-center flex-col border border-hidden">
@@ -34,7 +34,7 @@ export default function Home() {
                         <Link href={'/contact'}>Contact Me</Link>
                     </button>
                 </div>
-                <span className="full p-2">
+                <span className=" p-2">
                     <Image className="h-full" src={Programming} alt={'Me'} />
                 </span>
             </div>

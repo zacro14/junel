@@ -5,6 +5,8 @@ interface IProjects {
     description: string
     image: any
     tags: string[]
+    githubLink?: string
+    websiteLink?: string
 }
 
 export const ProjectItem: React.FC<IProjects> = ({
@@ -12,6 +14,8 @@ export const ProjectItem: React.FC<IProjects> = ({
     description,
     image,
     tags,
+    githubLink,
+    websiteLink,
 }) => {
     const [showmore, setShowMore] = useState(false)
     return (
