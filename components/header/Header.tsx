@@ -28,7 +28,7 @@ export const Header = () => {
                     <Link href={link} passHref key={name}>
                         <li
                             key={name}
-                            className={`text-stroke text-center hover:bg-secondary p-10 cursor-pointer rounded-md ${
+                            className={`text-stroke text-center h-full hover:bg-secondary p-10 cursor-pointer rounded-md ${
                                 router.pathname === link && 'bg-secondary'
                             }`}
                         >
