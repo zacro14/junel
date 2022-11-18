@@ -1,3 +1,3 @@
 ## My Second Version of Portfolio
 
-Welcome
+Welcome to my portfolio repo
