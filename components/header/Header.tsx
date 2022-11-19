@@ -43,7 +43,12 @@ const MobileNav = (props: IProps) => {
             <div className="p-5">
                 <ul className="grid justify-start">
                     {header.map(({ name, link }) => (
-                        <Link href={link} passHref key={name}>
+                        <Link
+                            href={link}
+                            passHref
+                            key={name}
+                            onClick={() => setOpen(!open)}
+                        >
                             <li
                                 key={name}
                                 className={`text-stroke h-full hover:bg-secondary p-5 cursor-pointer rounded-md  
