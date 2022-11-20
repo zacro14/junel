@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <div className="container mx-auto">
             <Seo title="Junel Sacro | Contact" description="Contact me" />
-            <div className=" grid md:grid-cols-2 lg:grid-cols-2 items-center justify-center">
+            <div className=" h-3/4  grid md:grid-cols-2 lg:grid-cols-2 items-center justify-center">
                 <span className=" p-2">
                     <Image
                         className="h-full"

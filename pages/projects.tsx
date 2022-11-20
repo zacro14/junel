@@ -1,14 +1,16 @@
 import Seo from 'components/seo'
 import React from 'react'
+import { projects } from 'data/projects'
+import { ProjectItem } from 'components/Projects'
 
 const Projects = () => {
     return (
-        <div className="flex items-center">
+        <div>
             <Seo title="Junel Sacro | Projects" />
-            <div className="grid w-full mx-10 md:mx-52 lg:52">
-                <div className="h-96 w-full bg-secondary rounded-3xl">
-                    MusicPhile
-                </div>
+            <div className="grid  md:grid-cols-2 gap-2">
+                {projects.map((props, index) => (
+                    <ProjectItem key={index} {...props} />
+                ))}
             </div>
         </div>
     )
