@@ -12,7 +12,7 @@ export default function Home() {
         <div>
             <Seo title="Junel Sacro | About" />
             <div className=" h-3/4 grid grid-row-2 md:grid-cols-2 items-center justify-center">
-                <div className="bg-secondary h-full p-5 text-center flex items-start justify-center flex-col border border-hidden">
+                <div className=" h-full p-5 text-center flex items-start justify-center flex-col border border-hidden">
                     <h1 className="font-bold text-2xl">
                         Hello 👋, I'm Junel Sacro
                     </h1>
@@ -34,7 +34,7 @@ export default function Home() {
                         <Link href={'/contact'}>Contact Me</Link>
                     </button>
                 </div>
-                <span className=" p-2">
+                <span className=" p-2 bg-secondary">
                     <Image className="h-full" src={Programming} alt={'Me'} />
                 </span>
             </div>

@@ -1,4 +1,3 @@
-import musicphile from 'images/musicphile.png'
 import { image } from 'images/constants'
 
 export const projects = [
@@ -6,7 +5,7 @@ export const projects = [
         name: 'Musicphile',
         description:
             'A front end website built for music, it used static songs from shazam api core and can play music.',
-        image: musicphile,
+        image: image.musicphile,
         githubLink: 'https://github.com/zacro14/zhaks-foody',
         websiteLink: 'https://zhaks-foody.vercel.app/',
         tags: ['Nextjs', 'Typescript', 'Redux toolkit', 'Tailwind css'],
